@@ -1,3 +1,16 @@
+%Please cite this paper if you use the code http://dx.doi.org/10.1063/1.4897441
+%D. Jha, H. O. Sørensen et al,"Adaptive center determination for effective suppression of ring artifacts in tomography images", 
+%Applied Physics Letters, 105, 143107 (2014)
+
+%USAGE:
+%*Convert the 3D data to 16bit sequential image slices with .tif extension and save them in one folder
+%*Insert your folder name with tif files below in this file.
+%imagepath = '/media/user/tifffiles-folder/';
+
+%*If the rings are centred, change
+%centered = 0; to centered = 1; (saves time) in this file.
+
+
 %% Initialize the folder path
 clear all;
 close all;
